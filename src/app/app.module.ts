@@ -17,6 +17,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { EntryService } from './entry.service';
 
 import { ReactiveFormsModule,FormsModule  } from '@angular/forms';
+import { CreateAccountComponent } from './components/create-account/create-account.component';
 
 const appRoutes: Routes = [
   { path: '', component: DashboardComponent },
@@ -29,7 +30,8 @@ const appRoutes: Routes = [
     NavigationComponent,
     DashboardComponent,
     TableComponent,
-    CreateComponent
+    CreateComponent,
+    CreateAccountComponent
   ],
   imports: [
     BrowserModule,
